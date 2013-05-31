@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11G63b" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Impression" representedClassName="Impression" syncable="YES">
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sns_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LikeKind" representedClassName="LikeKind" syncable="YES">
+        <attribute name="like_kind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="like_kind_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Urls" representedClassName="Urls" syncable="YES">
+        <attribute name="display" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="result" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="schems" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="blood_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facebook_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facebook_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fb_friend_count" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="likeYou_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="target_gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitter_Friend_count" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="twitter_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitter_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Impression" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="LikeKind" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="UserInfo" positionX="160" positionY="192" width="128" height="255"/>
+        <element name="Urls" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>

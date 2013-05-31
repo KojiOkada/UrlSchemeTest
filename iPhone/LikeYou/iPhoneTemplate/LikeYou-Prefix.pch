@@ -1,0 +1,52 @@
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "JSON.h"
+#import "AppDelegate.h"
+#import "R9HTTPRequest.h"
+#import "XMDataManager.h"
+#import "NSManagedObjectContextExtra.h"
+#import "BlocksKit.h"
+#import <QuartzCore/QuartzCore.h>
+#import "UIGlossyButton.h"
+#import "UIView+LayerEffects.h"
+#endif
+
+
+#define WEB_URL @"http://49.212.169.30/likeyou/user/login"
+#define LOGIN_URL @"http://49.212.169.30/likeyou/user/login"
+#define CHECK_URL @"http://49.212.169.30/likeyou/like/check"
+#define UNCHECK_URL @"http://49.212.169.30/likeyou/like/uncheck"
+#define MATCHINGLIST_URL @"http://49.212.169.30/likeyou/like/list"
+#define CHECKED_URL @"http://49.212.169.30/likeyou/like/checked"
+#define KINDLIKE_URL @"http://49.212.169.30/likeyou/likeKind/getallkind"
+
+#define UD_SNS_LOGIN_ID @"ud_sns_login_id"
+#define UD_LIKEYOU_ID @"likeyou_id"
+#define UD_LOGIN @"login"
+#define UD_SNS_TYPE @"sns_type"
+#define UD_SCREEN_NAME @"screen_name"
+
+#define BT_KEY_1 @"Like You"
+#define BT_KEY_2 @"Go out"
+#define BT_KEY_3 @"Drink"
+#define BT_KEY_4 @"Mail"
+#define BT_KEY_5 @"Telephone"
+
+#define YOUR_PUBLISHER_ID 6821
+#define YOUR_MEDIA_ID 49961
+#define YOUR_SPOT_ID 93016
+
+// フォント
+#define BASE_FONT(asize)        [UIFont fontWithName:@"Helvetica-Bold" size:asize]  // 標準スタイル
+#define BASE_BOLDFONT(size)     [UIFont boldSystemFontOfSize:size]                  // 太字スタイル
+#define BASE_ITALICFONT(size)   [UIFont italicSystemFontOfSize:size]                // 斜体スタイル
